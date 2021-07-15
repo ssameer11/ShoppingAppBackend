@@ -5,9 +5,7 @@ import { HttpException } from './exceptions/httpException';
 import { MONGOOSE_DATABASE_KEY } from './keys/keys';
 import authRoutes from './routes/auth';
 import sellersRoutes from './routes/sellers';
-import multer from 'multer';
 import path from 'path';
-import {multerUpload} from './middleware/multer-middleware';
 import customersRoutes from './routes/customers';
 import sharedRoutes from './routes/shared';
 
