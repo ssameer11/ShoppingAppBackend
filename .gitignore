@@ -1,3 +1,5 @@
-/node_modules
-/dist
 /src/keys
+
+/node_modules
+
+/dist
